@@ -18,6 +18,21 @@ teams = copy.deepcopy(TEAMS)
 players = copy.deepcopy(PLAYERS)
 
 def basketball_st():
+
+    #teamstats = teams.stat
+    #When someone chooses either a quit(player quits), and the Display team stats, he/she is then prompt to choose a team afterwards.
+    startApp = input("Hear are your options! Pick one!")
+    quit = input(quit)
+    displayStats = input(displayStats)
+    displaySatts = input("Display team stats")
+    
+    try:
+        startApp = input()
+    
+    while true:
+        if startApp == True:
+            
+    
     print("Welcome to Generic BasketBall Game!!!")
     print(" /n Reguistar you team!!!!!")
     for team in teams:
@@ -26,11 +41,11 @@ def basketball_st():
             """ PLAYERS are selected: Karl Saygan, Matt Gill, Sammy Adams, Chloe Alaska, Bill Bon, Jie Kavalier"""
             #Will lead to referencing keys and values;dictionaries#also references indexes of each players attributes, []
             
-        if team == "Bandits"
+        if team == "Bandits":
             """ PLAYERS are selected: Les Clay, Phillip Helm, Sal Dali, Suzane Greenberg, Jill Tanner, Alnold Willis"""
             #Will lead to referencing keys and values;dictionaries
         
-        
+print basketball_st()        
 #def        
 
 #__Name__

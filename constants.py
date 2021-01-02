@@ -1,13 +1,13 @@
 """import copy
 
 copy.deepcopy()
-deepcopy()
+deepcopy()"""
 def basketball_st():
     print("_Main_Menu_")
 print(__name__)
 if __name__ == '__main__':
   basketball_st()
-  """
+
 TEAMS = [
     'Panthers',
     'Bandits',
